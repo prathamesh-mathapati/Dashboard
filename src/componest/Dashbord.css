@@ -1,0 +1,29 @@
+.Dashbord{
+    background-color: #f7f7f7;
+    width: 100%;
+}
+.heart{
+    width: 2rem;
+}
+.date{
+    display: flex;
+    justify-content: space-between;
+}
+.card-wat{
+    /* width: 7rem; */
+    background-color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+.card-wat:first-child{
+    background-color: rgb(187, 133, 238);
+    border-radius: 50%;
+    
+}
+.card-wat:last-child {
+display: flex;
+flex-direction: column
+;
+}

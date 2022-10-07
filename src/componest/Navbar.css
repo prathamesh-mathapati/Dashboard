@@ -1,0 +1,174 @@
+.logo{
+    height: 2rem;
+}
+
+
+select{
+border: none;
+color: white;
+font-weight: 100;
+font-size: 80%;
+}
+.input-fell{
+    border-radius: 25px;
+    outline:none;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.input-fell input{
+    align-items: center;
+}
+.n{
+    align-items: center;
+    gap: 1rem;
+}
+.navbar-gap{
+    gap: 40rem;
+}
+.none-img{
+    display: none;
+}
+
+@media (max-width: 1653px){
+    .navbar-gap{
+        gap: 26rem;
+    }
+}
+
+
+@media (max-width: 1638px){
+    .navbar-gap{
+        gap: 20rem;
+    }
+}
+@media (max-width: 1524px){
+    .navbar-gap{
+        gap: 15rem;
+    }
+}
+@media (max-width: 1481px){
+    .navbar-gap{
+        gap: 10rem;
+    }
+}
+@media (max-width: 1401px){
+    .navbar-gap{
+        gap: 5rem;
+    }
+}
+@media (max-width: 1318px){
+    .navbar-gap{
+        gap: 3rem;
+    }
+}
+
+@media (max-width: 1291px){
+    .pr{
+        width: 41% !important;
+    }
+    .navbar-gap{
+        font-size: 70%;
+    }
+    .select1{
+        display: none;
+    }
+    .input-fell{
+        gap: 1rem;
+    }
+    .navbar-gap{
+        gap: 39rem;
+    }
+    .logo{
+        width: 20%;
+    }
+.none-img{
+    display: block;
+}
+    .search{
+        display: none !important;
+    }
+}
+
+@media (max-width: 1111px){
+    .navbar-gap{
+        gap: 30rem;
+    }
+}
+
+@media (max-width: 955px){
+    .navbar-gap{
+        gap: 20rem;
+    }
+}
+
+@media (max-width: 750px){
+    .navbar-gap{
+        gap: 12rem;
+    }
+}
+
+@media (max-width: 650px){
+    .navbar-gap{
+        gap: 5rem;
+    }
+    .img-hide{
+        display: none;
+    }
+
+}
+
+@media (max-width: 550px){
+    .navbar-gap{
+        gap: 1rem;
+    }
+    .input-group{
+        gap: .6rem;
+    }
+    .img-sec{
+        width: .1rem;
+    }
+}
+
+@media (max-width: 445px){
+    .navbar-gap{
+        gap: .1rem;
+    }
+    .n{
+        gap: .5rem;
+    }
+    /* .input-group{
+        gap: .5rem;
+    }
+    .img-sec{
+        width: .1rem;
+    } */
+}
+
+.img-scn{
+    width: 1.5rem;
+
+    height: 1.5rem;
+}
+.input-fell input{
+    background-color: rgb(56, 53, 53);
+    border-radius: 25px;
+    border: 0rem;
+    outline:none;
+
+}
+.img-sec{
+    width: 1rem;
+}
+.search{
+    display: flex;
+    align-items: center;
+    background-color: rgb(56, 53, 53);
+    /* border-radius: 25px; */
+    justify-content: center;
+}
+
+
+.search img{
+    border-radius: 25px;
+}

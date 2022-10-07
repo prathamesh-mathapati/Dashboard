@@ -1,0 +1,24 @@
+.PrevSidebar{
+    width: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.PrevSidebar img{
+width: 5rem;
+height: 2rem;
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+}
+.sidebar img{
+    width: 1rem;
+}
+.sidebar p{
+cursor: pointer;
+}
+
+.sidebar p:hover{
+    color: aqua;
+}
